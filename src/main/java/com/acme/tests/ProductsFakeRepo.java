@@ -21,7 +21,7 @@ public class ProductsFakeRepo implements ProductRepo {
 
         for(Product p : collection){
 
-            // If matches the publicId then add it and break out of loop as there can be only one
+            // If matches the publicId then add it and break out of the loop as there can be only one
             if(p.publicId.equalsIgnoreCase(publicId)){
                 result.add(p);
                 break;
